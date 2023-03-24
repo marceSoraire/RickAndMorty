@@ -4,7 +4,7 @@ import '../../Style/Style.css';
 const Nav = () => {
   return (
     <>
-    <img src={logo} alt='imgPrincipal' className='imgAlt'/>
+      <img src={logo} alt='imgPrincipal' className='imgAlt'/>
     </>
   )
 }

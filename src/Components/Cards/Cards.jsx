@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import '../../Style/Style.css';
 const Cards = ({ data }) => {
   return (
-    <Card sx={{ maxWidth: 345, marginTop: 10 }} className='grandCard'>
+    <Card sx={{maxWidth: 345, marginTop: 10}} className='grandCard'>
       <CardMedia
         component="img"
         image={data.image}
@@ -25,7 +25,7 @@ const Cards = ({ data }) => {
           variant='outlined'
           href={`/details/${data.id}`}
           className='btn'>
-          Learn More
+          Detalles del personaje
         </Button>
       </CardActions>
     </Card>

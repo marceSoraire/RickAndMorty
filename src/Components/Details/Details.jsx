@@ -28,7 +28,6 @@ const Details = () => {
                 </div>
             ) : ('Losiento!!! ocurrio un error al cargar los personajes')
         )}
-            
         </>
     )
 }

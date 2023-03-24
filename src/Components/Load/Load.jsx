@@ -8,4 +8,5 @@ const Load = () => {
     </Box>
   );
 }
+
 export default Load;

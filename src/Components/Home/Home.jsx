@@ -3,10 +3,12 @@ import { all } from '../../Functions/Functions'
 import Cards from '../Cards/Cards'
 import '../../Style/Style.css';
 const Home = () => {
+  
   const [personaje, setPersonaje] = useState(null);
   useEffect(() => {
     all(setPersonaje);
   }, [])
+
   return (
     <>
       {personaje !== null ? (
