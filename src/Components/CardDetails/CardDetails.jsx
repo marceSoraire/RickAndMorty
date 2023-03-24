@@ -34,7 +34,7 @@ const CardDetails = ({ data }) => {
           <Button
             size="small"
             variant='outlined'
-            href={`/`}
+            href='/'
             className='btn'>
             Volver al Inicio
           </Button>
